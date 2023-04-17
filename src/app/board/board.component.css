@@ -1,0 +1,6 @@
+:host {
+  background-color: var(--color-gray);
+  background-image: radial-gradient(var(--color-outer), var(--color-inner));
+  height: 22rem;
+  width: 22rem;
+}

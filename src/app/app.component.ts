@@ -1,8 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
+import { BoardComponent } from './board/board.component';
+
 @Component({
-  imports: [CommonModule],
+  imports: [CommonModule, BoardComponent],
   selector: 'app-root',
   standalone: true,
   styleUrls: ['./app.component.css'],
