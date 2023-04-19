@@ -1,13 +1,12 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
+  imports: [CommonModule, RouterModule],
   selector: 'app-board',
   standalone: true,
-  imports: [CommonModule],
+  styleUrls: ['./board.component.css'],
   templateUrl: './board.component.html',
-  styleUrls: ['./board.component.css']
 })
-export class BoardComponent {
-
-}
+export class BoardComponent {}

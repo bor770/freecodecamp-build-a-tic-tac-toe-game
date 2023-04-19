@@ -2,13 +2,19 @@
 
 @use "@angular/material" as mat;
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   height: 100%;
 }
 
 html {
-  --color-gray: #282828;
+  --color-gray-1: #282828;
 
   --color-inner: #00141499;
   --color-outer: #28503c;

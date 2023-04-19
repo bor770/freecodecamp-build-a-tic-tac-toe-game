@@ -7,3 +7,10 @@
   justify-content: center;
   width: 25rem;
 }
+
+main {
+  background-color: var(--color-gray-1);
+  background-image: radial-gradient(var(--color-outer), var(--color-inner));
+  height: 22rem;
+  width: 22rem;
+}

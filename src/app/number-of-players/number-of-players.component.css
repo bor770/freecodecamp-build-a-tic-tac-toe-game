@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+h2 {
+  color: gainsboro;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+ul {
+  display: flex;
+}
